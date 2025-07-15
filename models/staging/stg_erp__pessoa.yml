@@ -1,0 +1,14 @@
+models:
+  - name: stg_erp__pessoa
+    description: teste na tabela "Pessoa" para saber se há nomes repetidos
+    columns:
+
+
+      - name: ID_PESSOA
+        description: VERIFICAR SE HÁ FK IGUAIS
+        tests: 
+          - unique
+          - not_null
+
+      - name: NOME_CLIENTE
+        description: VERIFICAR SE HÁ NOMES IGUAIS
