@@ -1,8 +1,8 @@
 sources:
   - name: erp
     description: "Dados brutos do Raw Adventure Works"
+    database: ted_dev
     schema: dev_andre_silva
-    database: dev_andre_silva
     tables: 
       - name: raw_countryregion
         columns:
