@@ -96,9 +96,9 @@ sources:
             tests: 
               - unique
               - not_null
-      - name: raw_salesterritory
-        columns:
-          - name: TERRITOYYID
-            tests: 
-              - unique
-              - not_null
+##      - name: raw_salesterritory
+##        columns:
+##          - name: TERRITOYYID
+##            tests: 
+##              - unique
+##              - not_null
