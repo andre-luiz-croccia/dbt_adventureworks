@@ -29,6 +29,8 @@ categoria_subcategoria as (
     , pl.numero_do_produto
     , cs.nome_subcategoria
     , cs.nome_categoria
+    , pl.custo_padrao
+    , pl.preco_tabela
 
 from produtos_fonte pl
 left join categoria_subcategoria cs on pl.subcategoria_id = cs.subcategoria_id
