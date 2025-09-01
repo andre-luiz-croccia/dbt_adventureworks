@@ -8,6 +8,8 @@ from {{ source('erp', 'raw_product') }}
         ,cast(name as string) as nome_do_produto
         ,cast(productnumber as string) as numero_do_produto
         ,cast(productsubcategoryid as string) as subcategoria_id
+        ,cast(StandardCost as numeric(18,2)) as custo_padrao
+        ,cast(listprice as numeric(18,2)) as preco_tabela
    
     from fonte_produto
 )
