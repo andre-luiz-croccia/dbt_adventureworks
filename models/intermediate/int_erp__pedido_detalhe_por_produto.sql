@@ -16,6 +16,8 @@ pedido_detalhe_por_produto as (
         , p.produto_id
         , p.nome_do_produto as produto
         , p.nome_subcategoria
+        , p.nome_categoria
+        , p.custo_padrao
         , pd.preco_unitario
         , pd.preco_unitario_desconto
         , pd.valor_total
